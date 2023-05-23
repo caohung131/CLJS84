@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    background: rgb(214, 214, 253);
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    text-shadow: beige;
+}
+
+.title button {
+}
+
+.main-card {
+    margin-top: 20px;
+    display: flex;
+    gap: 1%;
+}
+
+.itemt-card {
+    width: 15%;
+    background-color: aqua;
+    border-radius: 5%;
+    padding: 0 1%;
+}
+
+.title-itemt-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-itemt-main li {
+    margin: auto;
+    border-radius: 4%;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-bottom: 5px solid rgb(163, 163, 163);
+}
+
+.btn-item {
+    margin-top: 10px;
+}
