@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 25px;
+}
+
+.header {
+    background-color: blue;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+.container {
+    width: 96%;
+    margin: auto;
+}
+
+.header button {
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+
+.main {
+    background-color: black;
+}
+
+.main-year {
+    display: flex;
+    color: white;
+}
+
+.main-year-left {
+    width: 50%;
+}
+
+.main-year-right {
+    width: 50%;
+    text-align: end;
+}
+
+.container-month {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item-month {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-month-left {
+    margin-top: 40px;
+}
+
+.item-month-left-in {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 80%;
+}
+
+.item-month-left-in-color {
+    background-color: aqua;
+    width: 80%;
+    height: 150px;
+    border-radius: 5px;
+}
